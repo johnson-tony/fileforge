@@ -16,12 +16,12 @@ export default function HomePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-3xl space-y-6"
+          className="max-w-4xl space-y-3 md:space-y-6"
         >
-          <h1 className="text-3xl md:text-6xl font-extrabold tracking-tight text-foreground">
-            Universal File Conversion
+          <h1 className="text-xl md:text-4xl font-extrabold tracking-tight text-foreground">
+            Convert Files Instantly
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground">
+          <p className="text-sm md:text-xl text-muted-foreground">
             Fast, secure, and hassle-free file conversion for everyone. 
             No sign-up required.
           </p>

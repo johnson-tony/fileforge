@@ -80,8 +80,6 @@ export function Navbar() {
               )}
             </AnimatePresence>
           </div>
-
-          <Link href="/pricing" className="text-sm font-semibold hover:text-primary transition-colors">Pricing</Link>
           <Link href="/about" className="text-sm font-semibold hover:text-primary transition-colors">About</Link>
           <Link href="/contact" className="text-sm font-semibold hover:text-primary transition-colors">Contact</Link>
         </div>
