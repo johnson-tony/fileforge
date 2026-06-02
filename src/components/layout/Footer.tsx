@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FileUp } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <Link href="/" className="flex items-center gap-2 mb-4">
-            <FileUp className="h-6 w-6 text-primary" />
+            <Image src="/logo.png" alt="Logo" width={24} height={24} className="rounded-sm" />
             <span className="font-bold text-lg">Universal File Converter</span>
           </Link>
           <p className="text-muted-foreground text-sm">

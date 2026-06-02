@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { FileUp } from "lucide-react";
+import Image from "next/image";
 
 export function Navbar() {
   return (
     <nav className="border-b bg-background sticky top-0 z-50">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <FileUp className="h-6 w-6 text-primary" />
+          <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded-md" />
           <span className="font-bold text-xl">Universal File Converter</span>
         </Link>
         
