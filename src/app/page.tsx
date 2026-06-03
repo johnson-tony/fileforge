@@ -56,9 +56,9 @@ export default function HomePage() {
       </section>
 
       {/* Search Section */}
-      <section className="w-full max-w-4xl px-4 -mt-12 mb-12 relative z-20">
-        <div className="p-1 bg-gradient-to-r from-primary/50 via-primary/20 to-primary/50 rounded-2xl shadow-2xl">
-          <div className="bg-background rounded-[14px] overflow-hidden">
+      <section className="w-full max-w-4xl px-4 -mt-12 mb-24 relative z-30">
+        <div className="p-1 bg-gradient-to-r from-primary/50 via-primary/10 to-primary/50 rounded-2xl shadow-2xl backdrop-blur-sm">
+          <div className="bg-background/95 rounded-[14px] py-4">
              <ConverterSearch />
           </div>
         </div>
